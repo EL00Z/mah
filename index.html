@@ -161,24 +161,6 @@
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
         }
 
-        .rate-display {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1.5rem;
-        }
-
-        .crypto-price {
-            font-size: 2rem;
-            font-weight: bold;
-            color: var(--success);
-        }
-
-        .price-change {
-            color: var(--success);
-            font-size: 0.9rem;
-        }
-
         /* Features Section */
         .features {
             padding: 5rem 0;
@@ -378,24 +360,37 @@
                 </div>
                 <div class="hero-visual floating">
                     <div class="trading-card">
-                        <div class="rate-display">
-                            <div>
-                                <div style="color: var(--text-gray); margin-bottom: 0.5rem;">Live Rate</div>
-                                <div class="crypto-price">$97,842</div>
-                            </div>
-                            <div style="text-align: right;">
-                                <div style="color: var(--text-gray); margin-bottom: 0.5rem;">BTC/USD</div>
-                                <div class="price-change">+2.34%</div>
-                            </div>
+                        <div style="text-align: center; margin-bottom: 2rem;">
+                            <div style="font-size: 2.5rem; font-weight: bold; background: linear-gradient(135deg, var(--accent), var(--success)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 0.5rem;">INSTANT EXCHANGE</div>
+                            <div style="color: var(--text-gray); font-size: 1.1rem;">Your Trusted Crypto to Cash Partner</div>
                         </div>
-                        <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
-                            <div style="flex: 1; padding: 1rem; background: rgba(0, 212, 170, 0.1); border-radius: 8px; text-align: center;">
-                                <div style="color: var(--text-gray); font-size: 0.9rem;">24h Volume</div>
-                                <div style="font-weight: bold; margin-top: 0.5rem;">$12.5M</div>
+                        <div style="display: flex; flex-direction: column; gap: 1rem;">
+                            <div style="padding: 1.2rem; background: rgba(74, 158, 255, 0.1); border-radius: 10px; border-left: 3px solid var(--accent);">
+                                <div style="display: flex; align-items: center; gap: 1rem;">
+                                    <div style="font-size: 1.5rem;">🔒</div>
+                                    <div>
+                                        <div style="font-weight: bold; margin-bottom: 0.3rem;">100% Secure</div>
+                                        <div style="color: var(--text-gray); font-size: 0.9rem;">Private & Confidential Transactions</div>
+                                    </div>
+                                </div>
                             </div>
-                            <div style="flex: 1; padding: 1rem; background: rgba(74, 158, 255, 0.1); border-radius: 8px; text-align: center;">
-                                <div style="color: var(--text-gray); font-size: 0.9rem;">Clients</div>
-                                <div style="font-weight: bold; margin-top: 0.5rem;">500+</div>
+                            <div style="padding: 1.2rem; background: rgba(0, 212, 170, 0.1); border-radius: 10px; border-left: 3px solid var(--success);">
+                                <div style="display: flex; align-items: center; gap: 1rem;">
+                                    <div style="font-size: 1.5rem;">⚡</div>
+                                    <div>
+                                        <div style="font-weight: bold; margin-bottom: 0.3rem;">No Waiting</div>
+                                        <div style="color: var(--text-gray); font-size: 0.9rem;">Walk In, Walk Out with Cash</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 1.2rem; background: rgba(74, 158, 255, 0.1); border-radius: 10px; border-left: 3px solid var(--accent);">
+                                <div style="display: flex; align-items: center; gap: 1rem;">
+                                    <div style="font-size: 1.5rem;">💎</div>
+                                    <div>
+                                        <div style="font-weight: bold; margin-bottom: 0.3rem;">Best Rates</div>
+                                        <div style="color: var(--text-gray); font-size: 0.9rem;">Competitive Prices in Alanya</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -537,7 +532,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Alanya Crypto OTC. All rights reserved. | Licensed & Regulated</p>
+            <p>&copy; 2025 Alanya Crypto OTC. All rights reserved.</p>
         </div>
     </footer>
 
